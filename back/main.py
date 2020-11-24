@@ -28,6 +28,6 @@ class data_access_wrapper(BaseModule):
             [3, 12, 13, 15, 17],
             [23, 24, 34, 30, 37]
         ]
-        val = cls(body=test_data)
+        val = cls(test_data)
         return val
 
