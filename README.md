@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img width="312px" alt="libvis logo" src="http://libvis.dev/logo.png"/>
+    <img width="312px" alt="libvis logo" src="http://libvis.dev/libvis-sm.png"/>
 </div>
 
 This is a data_access_wrapper [libvis](http://libvis.dev) module
@@ -29,4 +29,4 @@ vis.vars.test = data_access_wrapper(body=test_data)
 
 Click on "Open data in new tab" to get the data.
 
-![](demo_view.png)
+![](data_view.png)
