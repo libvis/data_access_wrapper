@@ -7,7 +7,11 @@ This is a data_access_wrapper [libvis](http://libvis.dev) module
 
 # Installation
 
-`libvis-mods install gh:/libvis/data_access_wrapper`
+```
+libvis-mods download gh:libvis/data_access_wrapper
+cd data_access_wrapper
+libvis-mods install
+```
 
 # Usage
 
