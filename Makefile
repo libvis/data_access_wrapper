@@ -1,7 +1,6 @@
 modname = data_access_wrapper
-get_path = libvis-mods where
-front_src = $(shell $(get_path) --front)
-back_src = $(shell $(get_path) --back)
+front_src = $(libvis-mods where --front)
+back_src = $(libvis-mods where --back)
 
 install:
 	libvis_mods install
@@ -14,6 +13,6 @@ req_py:
 
 req_js:
 	cd $(front_src)/$(modname) &&\
-		cat js_requirements.txt | xargs yarn add
+		[ -s js_requirements.txt ] && {cat js_requirements.txt | xargs yarn add}
 
 
